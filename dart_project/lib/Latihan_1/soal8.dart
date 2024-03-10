@@ -1,9 +1,9 @@
 import 'dart:io';
 
 void main() {
-  print("masukkan nama bilangan pertama :");
+  print("masukkan bilangan pertama :");
   int? number = int.parse(stdin.readLineSync()!);
-  print("Masukkan bilangan kedua :");
+  print("masukkan bilangan kedua :");
   int? number2 = int.parse(stdin.readLineSync()!);
   print("bilangan pertama : $number");
   print("bilangan kedua : $number2");
